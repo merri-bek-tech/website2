@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "Locally hosted web apps, built by volunteers, powered by renewables"
+  content: "Merri-bek Tech is building local web serving across our neighbourhood in order to provide affordable alternatives to big tech, while improving our local resilience in the face of the climate crisis."
   image: "/images/banner.png"
   button:
     enable: true
