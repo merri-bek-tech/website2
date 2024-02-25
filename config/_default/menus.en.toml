@@ -2,49 +2,86 @@
 
 # main menu
 [[main]]
+weight = 1
 name = "Home"
 url = "/"
-weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
 weight = 2
-
-[[main]]
-name = "Elements"
-url = "elements/"
-weight = 3
-
-[[main]]
-weight = 4
-name = "Pages"
+name = "About Us"
+url = "/about/"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "blog/"
+weight = 1
+name = "Vision"
+url = "/about/vision/"
+parent = "About Us"
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-url = "contact/"
+weight = 2
+name = "Values"
+url = "/about/values/"
+parent = "About Us"
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
+weight = 3
+name = "Principles"
+url = "/about/principles/"
+parent = "About Us"
 
 [[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
+weight = 3
+name = "Services"
+url = "services/"
+hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
+weight = 1
+name = "For community groups"
+url = "/services/for-community-groups/"
+parent = "Services"
+
+[[main]]
+weight = 1
+name = "For individuals"
+url = "/services/for-individuals/"
+parent = "Services"
+
+[[main]]
+weight = 4
+name = "Volunteering"
+url = "voluntering/"
+
+# [[main]]
+# weight = 3
+# name = "Pages"
+# hasChildren = true
+
+# [[main]]
+# parent = "Pages"
+# name = "Blog"
+# url = "blog/"
+
+# [[main]]
+# parent = "Pages"
+# name = "Contact"
+# url = "contact/"
+
+# [[main]]
+# parent = "Pages"
+# name = "Authors"
+# url = "authors/"
+
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# url = "categories/"
+
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# url = "404/"
 
 
 # footer menu
